@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>F1 Pace Analysis</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+        <h1>F1 Pace Analysis</h1>
+
+        <form id="controls">
+            <label>
+            Season
+            <input id="season" type="number" min="2018" max="2100" value="2024" />
+            </label>
+            <button id="load" type="submit">Load</button>
+        </form>
+
+        <section id="status" aria-live="polite"></section>
+
+        <div id="view"></div>
+    </main>
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

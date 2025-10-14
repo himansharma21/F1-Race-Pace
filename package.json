@@ -1,0 +1,21 @@
+{
+  "name": "f1-grid-deltas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "test": "vitest",
+    "test:ci": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",    
+    "vitest": "^2.1.1",
+    "@vitest/coverage-v8": "^2.1.1",
+    "jsdom": "^24.1.0"
+    
+  }
+}
